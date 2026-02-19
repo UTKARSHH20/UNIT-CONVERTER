@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+
+
+.header {
+    background: linear-gradient(135deg, #5b4eff, #7c30c4);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+#input {
+    width: 80%;
+    padding: 10px;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+#convert-btn {
+    background: white;
+    color: #5b4eff;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.results {
+    background: #e8f0ea;
+    padding: 20px;
+}
+
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #7c30c4;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
